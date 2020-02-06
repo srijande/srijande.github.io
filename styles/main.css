@@ -4844,7 +4844,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .profile-page .page-header {
-  min-height: 550px;
+  min-height: 100vh;
 }
 
 .profile-page .profile-container {
@@ -4921,7 +4921,6 @@ Created using IcoMoon - icomoon.io
   left: 0;
   z-index: 2;
 }
-
 .section-full-page:before {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -7248,19 +7247,21 @@ Created using IcoMoon - icomoon.io
 .cc-facebook:hover i {
   color: #3b5998;
 }
-
+.cc-instagram:hover i {
+  color: #ed00ff;
+}
+.cc-twitter:hover i {
+  color: #3b5998;
+}
 .cc-linkedin:hover i {
   color: #1da1f2;
 }
-
-.cc-google-plus:hover i {
-  color: #dd4b39;
+.cc-github:hover i {
+  color: #9100ff;
 }
-
-.cc-instagram:hover i {
-  color: #405de6;
+.cc-stack-overflow:hover i {
+  color: #ff3100;
 }
-
 /* Credit Style */
 a.credit {
   color: inherit;
