@@ -128,7 +128,7 @@
 .bootstrap-switch .bootstrap-switch-label {
   text-align: center;
   z-index: 100;
-  color: #333333;
+  color: #ffffff;
   background: #ffffff;
   width: 22px !important;
   height: 22px !important;
@@ -1515,7 +1515,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #000C62;
   color: #FFFFFF;
 }
 
@@ -2902,7 +2902,7 @@ p {
 }
 
 .title.title-up a {
-  color: #2c2c2c;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -3402,7 +3402,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #0A3B03 !important;
 }
 
 .bg-info {
@@ -3423,6 +3423,9 @@ body {
 
 .bg-white {
   background-color: #FFFFFF !important;
+}
+.bg-dark {
+  background-color: #000000 !important;
 }
 
 .dropdown-menu {
@@ -5600,7 +5603,7 @@ Created using IcoMoon - icomoon.io
     right: 0;
     z-index: 1032;
     visibility: visible;
-    background-color: #999;
+    background-color: #0D0845;
     overflow-y: visible;
     border-top: none;
     text-align: left;
