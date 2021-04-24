@@ -93,7 +93,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-brown,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-brown {
   color: #fff;
-  background: #378C3F;
+  background: rgb(0, 0, 0);
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
@@ -2598,20 +2598,20 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(0, 0, 0, 0.233);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: rgb(0, 126, 38);
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: rgb(0, 0, 0);
 }
 
 .progress-container.progress-info .progress {
-  background: rgba(44, 168, 255, 0.3);
+  background: rgb(0, 0, 0);
 }
 
 .progress-container.progress-info .progress-bar {
@@ -3402,7 +3402,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #0A3B03 !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 
 .bg-info {
@@ -3483,11 +3483,11 @@ body {
 }
 
 .dropdown-menu.dropdown-primary {
-  background-color: #33813a;
+  background-color: #013080;
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color: #013080;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -3555,11 +3555,11 @@ body {
 }
 
 .dropdown-menu.dropdown-success {
-  background-color: #16c00e;
+  background-color: #013080;
 }
 
 .dropdown-menu.dropdown-success:before {
-  color: #16c00e;
+  color: #013080;
 }
 
 .dropdown-menu.dropdown-success .dropdown-header:not([href]):not([tabindex]) {
@@ -5614,13 +5614,14 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: rgb(0, 0, 0);
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
     background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: linear-gradient(#000 0%, #000 80%);
+    border-left: 1px solid green;
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
