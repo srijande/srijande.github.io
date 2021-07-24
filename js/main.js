@@ -44,3 +44,16 @@ particlesJS("particles-js", {
 		}
 	},
 });
+
+
+document.addEventListener('visibilitychange',
+function(){
+    if(document.visibilityState === "visible"){
+        document.title = "Srijan De | Portfolio";
+        $("#favicon").attr("href","/images/srijan.jpg");
+    }
+    else {
+        document.title = "Come Back To Portfolio";
+        $("#favicon").attr("href","assests/images/favhand.png");
+    }
+});

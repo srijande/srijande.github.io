@@ -7099,7 +7099,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 25px solid rgba(55, 140, 63, 0.8);
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -7110,7 +7110,7 @@ Created using IcoMoon - icomoon.io
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   opacity: 0.0;
-  z-index: 99;
+  z-index: 1;
 }
 
 .cc-profile-image img {
@@ -7121,7 +7121,7 @@ Created using IcoMoon - icomoon.io
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
-  z-index: 9999;
+  z-index: 9;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
